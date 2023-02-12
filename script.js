@@ -19,7 +19,7 @@ document.getElementById("removeChild").addEventListener("click",
         if (targetChild.length > 0) {
             let lastChild = targetChild[targetChild.length - 1];
             mainDiv.removeChild(lastChild);
-            alert(`your child div no ${lastChild.innerText} is now deleted`)
+            // alert(`your child div no ${lastChild.innerText} is now deleted`);
         } else {
             alert("no child div / inner box present");
         }
